@@ -40,7 +40,8 @@ input{
 }
 
 img{
-    border: 5px solid #705f55;  
+    border: 5px solid #705f55;
+    margin: 0 2px;  
 }
 
 .head{
