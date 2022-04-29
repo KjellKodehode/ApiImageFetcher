@@ -1,6 +1,5 @@
 // create images
 document.getElementById("btn-get").addEventListener("click", ()=>{
-    console.log("button click")
     fetch(`https://picsum.photos/${inputX.value}/${inputY.value}`)
     .then(imgRes => {
         const img = document.createElement ("img")
@@ -9,7 +8,7 @@ document.getElementById("btn-get").addEventListener("click", ()=>{
     })
 })
 
-// clear input fields
+// refresh page
 document.getElementById("btn-clr").addEventListener("click", ()=>{
     window.location.reload()
 })
