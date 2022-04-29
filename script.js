@@ -49,5 +49,3 @@ const scrollTop = function() {
     scrollBtn.addEventListener("click", scrollWindow)
 };
 scrollTop();
-// this changes the scrolling behavior to "smooth"
-// window.scrollTo({ top: 0, behavior: 'smooth' });
