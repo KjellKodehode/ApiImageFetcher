@@ -84,3 +84,23 @@ button:active{
     margin-top: 10px;
     width: 300px;
 }
+
+/* scroll up button */
+#scroll-btn {       
+    background-color: #e9d4bf;
+    bottom: 1%;
+    cursor: default;
+    font-size: 2em;
+    border: 2px solid #faf2f2;
+    opacity: 0;  
+    padding: 0; 
+    position: fixed;
+    right: 1%;   
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+#scroll-btn.show {   
+    cursor: pointer;   
+    opacity: 1;  
+    transition: opacity 1s, transform 1s;     
+}
