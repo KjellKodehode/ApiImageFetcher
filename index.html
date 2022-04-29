@@ -20,13 +20,16 @@
             </div>
             <div class="inputs">
                 <h3>Select size</h3>
-                <label for="img-height">Height ↕️</label>
-                <input id="img-height" type="text">
-                <label for="img-width">Width ↔️</label>
-                <input id="img-width" type="text">
-                <button>Get Image</button>
+                <label for="inputY">Height ↕️</label>
+                <input id="inputY" type="number" title="Select Height" onfocus="this.value=''" value="300">
+                <label for="inputX">Width ↔️</label>
+                <input id="inputX" type="number" title="Select Width" onfocus="this.value=''" value="300">
+                <button id="btn-get" title="Click for Image">Get Image</button>
+                <br>
+                <button id="btn-clr" title="Remove all Images">Refresh Page</button>
             </div>
         </div>
+        <div class="image-space"></div>
     </main>
     <script src="script.js"></script>
 </body>
