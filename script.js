@@ -28,6 +28,7 @@ const scrollTop = function() {
     const scrollBtn = document.createElement("button");
     scrollBtn.innerHTML ="🔝";
     scrollBtn.setAttribute("id", "scroll-btn");
+    scrollBtn.setAttribute("title", "Scroll to Top")
     document.body.appendChild(scrollBtn);
     
     const scrollBtnDisplay = function() {
