@@ -3,7 +3,8 @@ document.getElementById("btn-get").addEventListener("click", fetchImg)
 
 // get images clicking "Enter" key 
 addEventListener("keydown", (e)=> {
-    if(e.key !== "Enter") return
+    if(e.key !== "Enter") 
+    return
     fetchImg()
 })
 
